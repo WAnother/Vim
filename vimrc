@@ -1,6 +1,5 @@
 syntax enable
 filetype on
-colorscheme gruvbox 
 set tabstop=4   
 set softtabstop=4
 set expandtab
@@ -12,6 +11,9 @@ set hlsearch
 set autoindent
 filetype indent on
 
+call plug#begin('~/.vim/plugged')
 
+Plug 'morhetz/gruvbox'
 
-
+call plug#end()
+colorscheme gruvbox
