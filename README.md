@@ -1,3 +1,2 @@
 # Vim
-Vim Configuration
-This is my person vim envinroment, feel free to use it
+This is my personal vim configuration, feel free to use it
