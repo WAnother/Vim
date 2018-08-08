@@ -3,7 +3,7 @@
 "
 "   Author:   Shulin Wang
 "   Email:    wangasl@hotmail.com
-"   Date:     8/7/2018
+"   Date:     8/8/2018
 """""""""""""""""""""""""""""""""""""
 
 "====================================
@@ -12,7 +12,8 @@
 
 call plug#begin('~/.vim/plugged')
             
-Plug 'morhetz/gruvbox'
+Plug 'morhetz/gruvbox'          "Color theme
+Plug 'scrooloose/nerdtree'      "Nerd tree 
 
 call plug#end()
 
