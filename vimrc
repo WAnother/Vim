@@ -3,7 +3,7 @@
 "
 "   Author:   Shulin Wang
 "   Email:    wangasl@hotmail.com
-"   Date:     9/23/2018
+"   Date:     10/22/2018
 """""""""""""""""""""""""""""""""""""
 
 "====================================
@@ -12,8 +12,10 @@
 
 call plug#begin('~/.vim/plugged')
             
-Plug 'morhetz/gruvbox'          "Color theme
-Plug 'scrooloose/nerdtree'      "Nerd tree 
+Plug 'morhetz/gruvbox'                  "Color theme
+Plug 'scrooloose/nerdtree'              "Nerd tree 
+Plug 'terryma/vim-multiple-cursors'     "Multiple cursors
+
 
 call plug#end()
 
